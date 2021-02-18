@@ -1,15 +1,16 @@
 Package: rscale
-Title: What the Package Does (One Line, Title Case)
+Title: Tools for Working with Surveys & Scales
 Version: 0.0.0.9000
 Authors@R: 
-    person(given = "First",
-           family = "Last",
+    person(given = "Andrew",
+           family = "MacFarland",
            role = c("aut", "cre"),
-           email = "first.last@example.com",
-           comment = c(ORCID = "YOUR-ORCID-ID"))
-Description: What the package does (one paragraph).
-License: `use_mit_license()`, `use_gpl3_license()` or friends to
-    pick a license
+           email = "andrew.macfarland@colorado.edu",
+           comment = c(ORCID = "0000-0002-4618-1797"))
+Description: This package provides a variety of tools for working with survey 
+            & scale data, especially measures consisting of likert-scale style
+            items. 
+License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
 Roxygen: list(markdown = TRUE)
@@ -17,4 +18,6 @@ RoxygenNote: 7.1.1
 Imports: 
     tidyselect,
     dplyr,
-    tibble
+    tibble,
+    magrittr,
+    rlang
