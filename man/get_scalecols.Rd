@@ -20,11 +20,11 @@ Select all columns with a given prefix from a dataframe.
 \examples{
 df <-
   data.frame(
-    scale1_foo = sample(1:4, 10, replace = TRUE),
-    scale1_bar = sample(1:4, 10, replace = TRUE),
-    scale2_foo = sample(1:4, 10, replace = TRUE),
-    scale2_bar = sample(1:4, 10, replace = TRUE)
-)
+    scale1_foo = 1:5,
+    scale1_bar = 2:6,
+    scale2_foo = 3:7,
+    scale2_bar = 4:8
+  )
 
 get_scalecols(df, "scale1")
 
